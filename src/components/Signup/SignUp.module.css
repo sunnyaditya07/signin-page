@@ -1,0 +1,76 @@
+.signupSection {
+  margin: 8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signupBox {
+  padding: 4rem 3.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+  background-color: #dbe4ff;
+  border-radius: 5px;
+}
+.signupInput {
+  font-family: "Rubik", sans-serif;
+  width: 35rem;
+  height: 3.6rem;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding-left: 1.6rem;
+  border-radius: 5px;
+  color: #212529;
+}
+.signupBtn {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.4rem;
+  padding: 1rem 2.4rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #3b5bdb;
+  color: #dbe4ff;
+
+  transition: all 0.3s;
+}
+.signupBtn:hover,
+.signupBtn:active {
+  background-color: #364fc7;
+}
+
+.createAccBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.6rem;
+}
+.errorMsg {
+  font-family: "Rubik", sans-serif;
+  font-size: 1.6rem;
+  color: #dbe4ff;
+  padding: 1.2rem 2.4rem;
+  background-color: #e03131;
+  margin-bottom: 1.4rem;
+  border-radius: 5px;
+}
+
+.createAccText {
+  font-size: 1.8rem;
+  color: #212529;
+}
+.signupText {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #3b5bdb;
+  transition: all 0.3s;
+}
+.signupText:hover,
+.signupText:active {
+  color: #364fc7;
+}
